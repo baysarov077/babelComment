@@ -1,0 +1,25 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+}
+.mainImg {
+    width: 900px;
+    margin: auto;
+}
+h1, h2 {
+    text-align: center;
+    background-color: lightblue;
+    font-size: 34px;
+    margin: 0;
+    height: 70px;
+    line-height: 70px;
+}
+h1:hover, h2:hover, .mainImg:hover{
+    box-shadow: 0 0 5px 3px;
+}
